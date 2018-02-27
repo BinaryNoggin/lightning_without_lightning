@@ -1,0 +1,794 @@
+<html>
+  <head>
+    <title>Lightning Without Lighning</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+        font-size: 20px;
+      }
+
+      li {
+        font-size: 2em;
+      }
+
+      .demo li {
+        padding: 1em;
+      }
+
+      .math li {
+        font-size: 1em;
+        padding: 1em;
+      }
+
+      .images-attribution li {
+        font-size: 1em;
+      }
+
+      li li {
+        font-size: 1em;
+      }
+
+      footer {
+        background-attachment: fixed;
+        background-position: left bottom;
+        position: absolute;
+        bottom: 30px;
+        left: 5px;
+        height: 60px;
+        width: 100%;
+        text-align: left;
+      }
+
+      footer img {
+        height: 100%;
+        width: auto;
+      }
+
+      span.handle {
+        color: blue;
+      }
+
+      footer p.handle {
+        display: inline;
+      }
+
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+        background-color: rgba(35, 27, 89, 0.9);
+        position: relative;
+        z-index: 100;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+
+      .remark-code, .remark-inline-code {
+        font-family: 'Fira Code';
+        font-size: 1.1em;
+      }
+
+      .remark-code-line-highlighted {
+        font-size: 1.2em;
+      }
+      .remark-notes-preview-area { display: none; }
+      .remark-notes-current-area {
+        font-size: 1.2em;
+      }
+
+      .title {
+        background-image: url('images/hardware-without-hardware.jpg');
+        background-size: auto 100%;
+      }
+
+      .light_footer footer p.handle {
+        color: white;
+      }
+
+      .color_footer footer p.handle {
+        color: red;
+      }
+
+      .waiting {
+        background-image: url('images/waiting.jpg');
+        background-size: auto 100%;
+      }
+
+      .distraction {
+        background-image: url('images/distraction.jpg');
+        background-size: auto 100%;
+      }
+
+      .money {
+        background-image: url('images/money.jpg');
+        background-size: auto 100%;
+      }
+
+      .spouse {
+        background-image: url('images/spouse.jpg');
+        background-size: auto 100%;
+      }
+
+      .boring {
+        background-image: url('images/boring.jpg');
+        background-size: auto 100%;
+      }
+
+      .question {
+        background-image: url('images/question.jpg');
+        background-size: auto 100%;
+      }
+
+      .real_world {
+        background-image: url('images/real-world.jpg');
+        background-size: auto 100%;
+      }
+
+      .lightning {
+        background-image: url('images/lightning.jpg');
+        background-size: auto 100%;
+      }
+
+      .chart {
+        background-image: url('images/chart.png');
+        background-size: 80% auto;
+      }
+
+      .frank {
+        background-image: url('images/frank-photo.jpg');
+        background-size: 60% auto;
+      }
+
+      .frank-crazy {
+        background-image: url('images/frank-crazy.jpg');
+        background-size: 60% auto;
+      }
+
+      .magic {
+        background-image: url('images/metz-magic.jpg');
+        background-size: auto 125%;
+        background-position: top;
+      }
+
+      .me {
+        background-image: url('images/tintin.jpeg');
+        background-size: auto 60%;
+        background-position: center bottom;
+      }
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout: true
+<footer>
+  <img src="images/small-circle.png">
+  <p class="handle">@adkron</p>
+</footer>
+---
+
+class: center, top, title, light_footer
+
+# Hardware Without Hardware
+## Amos King
+### ElixirDaze March 2018
+
+---
+
+class: left, top
+
+# Harware is Hard
+
+???
+
+---
+
+class: left, top, waiting, light_footer
+
+# The Waiting is the Hardest Part
+
+???
+
+* Idea
+* Excitement
+* Purchase
+* Then waiting
+
+---
+
+class: distraction
+
+# Butterflies
+
+???
+
+* Waiting draws our attention away
+* We move on
+* We realize we have the wrong idea
+* Our excitement is subsided
+
+---
+
+class: money
+
+# Money
+
+???
+
+* Some pieces of hardware can be expensive
+
+---
+
+class: spouse, color_footer
+
+# ~~Money~~ Spouse
+
+???
+
+* Never Used hardware
+
+---
+
+class: boring, light_footer
+
+# Deployment
+
+???
+
+* SD cards moving around
+* tedious if you find errors
+* Cross Compiling
+
+---
+
+class: question, color_footer
+
+# Knowledge
+
+???
+
+* Docs
+* People
+* Always our problem
+
+---
+
+class: real_world, light_footer
+
+# The Real World
+
+???
+
+* Testing real word phenomenon
+
+---
+
+class: lightning, color_footer
+
+# Lightning Without Lightning
+
+???
+
+* Paul says that all great talks start with a story
+
+---
+
+class: me
+
+# Who am I?
+
+* Amos King
+* @adkron
+* Binary Noggin
+* GrovePi
+* This Agile Life
+
+---
+
+class: frank
+
+# Frank Hunleth
+
+???
+
+* Nerves
+* ElixirDaze
+* Grove Pi
+* lightning sensor
+
+---
+
+class: frank-crazy
+
+# Frank Hunleth
+
+???
+
+---
+
+# Facts
+
+---
+
+# Facts
+
+* 25 Million Strikes US/Year
+
+???
+
+* strikes weather.com
+
+---
+
+# Facts
+
+* 25 Million Strikes US/Year
+* 9.8 Mil sq-km in the USA
+
+???
+
+* US land wiki
+
+---
+
+# Facts
+
+* 25 Million Strikes US/Year
+* 9.8 Mil sq-km in the USA
+* 63 km range of sensor
+
+???
+
+* docs - sensor
+
+---
+
+class: math
+
+ # Maths
+
+* 25/9.8 = 2.55 strikes/sq-km/year
+* 2.55 * yr/365 days = .007 strikes/sq-km/day
+* (63 km)^2 * pi = 12,462 sq-km sensor area
+* 12462 * .007 = 87 strikes/day
+* 87 st/day * day/24hr * hr/60min = .06 strikes/min
+* 1 strike / .06 minutes =  ~ 17 mins waiting for a strike
+
+???
+
+* One bug 34 minutes
+* This isn't how lightning works
+
+---
+
+class: chart
+
+# Testing and Documentation
+
+???
+
+* Charts and Graphs
+
+---
+
+# Communication
+
+* Off to the code
+
+???
+
+* Binary
+* Generating Input
+* Stram Data
+* Property Testing
+
+---
+
+class: magic
+
+# Testing
+
+???
+
+* Magic Tricks of Testing by Sandi Metz
+
+---
+class: code
+
+# Incoming Query
+
+~~~elixir
+test "default gain value" do
+  # Setup code
+
+* assert Subject.gain() == :indoor
+end
+~~~
+
+???
+
+* Assert the result of the query
+
+---
+
+# Incoming Command
+
+~~~elixir
+test "changing gain value" do
+* Subject.gain(:outdoor)
+
+  assert Subject.gain == :outdoor
+end
+~~~
+
+???
+
+* Do command
+
+---
+
+# Incoming Command
+
+~~~elixir
+test "changing gain value" do
+  Subject.gain(:outdoor)
+
+* assert Subject.gain == :outdoor
+end
+~~~
+
+???
+
+* assert public side effect
+
+---
+
+# Outgoing Query
+
+~~~elixir
+
+test "reading results from the sensor" do
+  output = Enum.at(sensor_output(), 1)
+* stub(GrovePi.MockBoard, :read,
+  fn(%{address: 0x04}, 8)->
+    output
+  end)
+
+  result = Subject.read!
+
+  assert output.interrupt == result.interrupt
+  assert output.distance == result.distance
+end
+~~~
+
+???
+
+* call to read
+* any number of times
+
+---
+
+# Outgoing Query
+
+~~~elixir
+
+test "reading results from the sensor" do
+  output = Enum.at(sensor_output(), 1)
+  stub(GrovePi.MockBoard, :read,
+* fn(%{address: 0x04}, 8)->
+    output
+  end)
+
+  result = Subject.read!
+
+  assert output.interrupt == result.interrupt
+  assert output.distance == result.distance
+end
+~~~
+
+???
+
+* specific address
+* 8 bytes
+
+---
+
+# Outgoing Query
+
+~~~elixir
+
+test "reading results from the sensor" do
+  output = Enum.at(sensor_output(), 1)
+  stub(GrovePi.MockBoard, :read,
+  fn(%{address: 0x04}, 8)->
+*   output
+  end)
+
+  result = Subject.read!
+
+  assert output.interrupt == result.interrupt
+  assert output.distance == result.distance
+end
+~~~
+
+???
+
+* setup the return value
+
+---
+
+# Outgoing Query
+
+~~~elixir
+
+test "reading results from the sensor" do
+  output = Enum.at(sensor_output(), 1)
+  stub(GrovePi.MockBoard, :read,
+  fn(%{address: 0x04}, 8)->
+    output
+  end)
+
+* result = Subject.read!
+
+  assert output.interrupt == result.interrupt
+  assert output.distance == result.distance
+end
+~~~
+
+???
+
+* perform the outgoing query
+
+---
+
+# Outgoing Query
+
+~~~elixir
+
+test "reading results from the sensor" do
+  output = Enum.at(sensor_output(), 1)
+  stub(GrovePi.MockBoard, :read,
+  fn(%{address: 0x04}, 8)->
+    output
+  end)
+
+  result = Subject.read!
+
+* assert output.interrupt == result.interrupt
+* assert output.distance == result.distance
+end
+~~~
+
+???
+
+* assert results of the query
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+* expected_gain = :outdoor
+  expect(GrovePi.MockBoard, :write, _calls = 1,
+  fn(%{address: 0x04},
+     %{setting: :gain, value: ^expected_gain})->
+    :ok
+  end)
+
+  Subject.gain(expected_gain)
+
+  verify!
+end
+~~~
+
+???
+
+* Set expectation of result
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+  expected_gain = :outdoor
+* expect(GrovePi.MockBoard, :write, _calls = 1,
+  fn(%{address: 0x04},
+     %{setting: :gain, value: ^expected_gain})->
+    :ok
+  end)
+
+  Subject.gain(expected_gain)
+
+  verify!
+end
+~~~
+
+???
+
+* expect a call to write
+* number of times it is expected
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+  expected_gain = :outdoor
+  expect(GrovePi.MockBoard, :write, _calls = 1,
+* fn(%{address: 0x04},
+*    %{setting: :gain, value: ^expected_gain})->
+    :ok
+  end)
+
+  Subject.gain(expected_gain)
+
+  verify!
+end
+~~~
+
+???
+
+* specific address
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+  expected_gain = :outdoor
+  expect(GrovePi.MockBoard, :write, _calls = 1,
+  fn(%{address: 0x04},
+     %{setting: :gain, value: ^expected_gain})->
+*   :ok
+  end)
+
+  Subject.gain(expected_gain)
+
+  verify!
+end
+~~~
+
+???
+
+* the result
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+  expected_gain = :outdoor
+  expect(GrovePi.MockBoard, :write, _calls = 1,
+  fn(%{address: 0x04},
+     %{setting: :gain, value: ^expected_gain})->
+    :ok
+  end)
+
+* Subject.gain(expected_gain)
+
+  verify!
+end
+~~~
+
+???
+
+* call the command
+
+---
+
+# Outgoing Command
+
+~~~elixir
+
+test "changing gain value" do
+  expected_gain = :outdoor
+  expect(GrovePi.MockBoard, :write, _calls = 1,
+  fn(%{address: 0x04},
+     %{setting: :gain, value: ^expected_gain})->
+    :ok
+  end)
+
+  Subject.gain(expected_gain)
+
+* verify!
+end
+~~~
+
+???
+
+* assert the public side effect
+
+---
+
+# Testing Demo
+
+Show test run
+
+---
+
+class: demo
+
+# Lightning Demo
+
+* <span class="handle">@fhunleth</span>, IT WORKED! <span
+  class="handle">@adkron</span> is not crazy. #elixirdaze
+* <span class="handle">@fhunleth</span>, it failed. :( You were right, <span
+  class="handle">@adkron</span> is crazy. #elixirdaze
+
+---
+
+class: resources
+
+# Resources
+
+Slides
+https://github.com/BinaryNoggin/live_like_a_hippy
+
+GrovePi
+https://hex.pm/grovepi
+
+Sandi Metz
+https://www.youtube.com/watch?v=URSWYvyc42M
+
+---
+
+# Thank You
+
+* STL Elixir
+* Frank Hunleth
+* Conor Rigby
+* Elixir Daze
+
+---
+
+class: images-attribution
+
+# Images
+
+* https://www.flickr.com/photos/28438417@N08/6917663642
+* https://www.flickr.com/photos/actualitte/14324010468
+* https://www.flickr.com/photos/moodlegal/26109038770
+* https://www.flickr.com/photos/remeriz/9534823054
+* https://www.flickr.com/photos/kylezoa/3661980966
+* https://www.flickr.com/photos/emagic/51069522
+* https://www.flickr.com/photos/eurosporttuning/16442169022
+* https://www.flickr.com/photos/62425933@N04/15230309360
+
+---
+
+class: lets-talk
+
+# Come Talk to Me
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+var slideshow = remark.create({
+  highlightLanguage: 'elixir',
+  highlightLines: true
+});
+    </script>
+  </body>
+</html>
