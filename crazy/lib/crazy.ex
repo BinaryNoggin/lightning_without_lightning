@@ -1,0 +1,2 @@
+defmodule Crazy do
+end
