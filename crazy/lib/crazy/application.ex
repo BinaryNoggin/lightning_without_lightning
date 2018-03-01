@@ -8,7 +8,8 @@ defmodule Crazy.Application do
 
     # Define workers and child supervisors to be supervised
     children = [
-      # worker(Crazy.Worker, [arg1, arg2, arg3]),
+      GrovePi.Lightning.Supervisor,
+      Crazy.LightningListener,
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
